@@ -5482,7 +5482,7 @@ components:
           type: string
           nullable: true
         acceptedById:
-          $ref: '#/components/schemas/UserID'
+          type: string
           nullable: true
         createdAt:
           type: string
@@ -5844,7 +5844,7 @@ components:
           type: string
           nullable: true
         acceptedById:
-          $ref: '#/components/schemas/UserID'
+          type: string
           nullable: true
         id:
           $ref: '#/components/schemas/GroupMemberID'
